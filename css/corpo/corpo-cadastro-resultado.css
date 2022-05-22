@@ -1,0 +1,8 @@
+#corpo__cadastro__resultado {
+    margin-top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 2px black;
+}

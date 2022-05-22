@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque Bicicletaria</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/menu/menu.css">
+    <link rel="stylesheet" href="css/menu/menu-item.css">
+    <link rel="stylesheet" href="css/menu/menu-lista.css">
+    <link rel="stylesheet" href="css/menu/menu-link.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <link rel="stylesheet" href="css/corpo.css">
+    <link rel="stylesheet" href="css/corpo/corpo-caixa.css">
+    <link rel="stylesheet" href="css/corpo/corpo-cadastro.css">
+    <link rel="stylesheet" href="css/corpo/corpo-cadastro-form.css">
+    <link rel="stylesheet" href="css/corpo/corpo-cadastro-form-item.css">
+    <link rel="stylesheet" href="css/botao.css">
+    <link rel="stylesheet" href="css/corpo/corpo-cadastro-codpeca.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/corpo/corpo-cadastro-resultado.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/msg-inicial.css">
+    <link rel="stylesheet" href="css/consulta/consulta.css">
+    <link rel="stylesheet" href="css/consulta/consulta-codigo.css">
+    <link rel="stylesheet" href="css/consulta/consulta-fabricante.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="#"><img id="logo" src="images/icone_bicicleta.png" alt="logo do meu site"></a>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link"href="javascript:cadastrar()">Cadastrar peça</a></li>
+                <li class="menu__item"><a class="menu__link"href="javascript:consultar()">Consultar peça</a></li>
+                <li class="menu__item"><a class="menu__link"href="javascript:remover()">Remover peça</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="corpo">
+        <div class="corpo__caixa">
+           <span id="msg-inicial">Escolha uma opção na barra de navegação...</span>
+        </div>
+    </section>
+    <footer>
+        <span>&copy; Hermes Lopes Junior</span>
+    </footer>
+    <script src="scripts/script.js"></script>
+    
+</body>
+</html>

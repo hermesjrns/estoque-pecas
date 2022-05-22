@@ -1,0 +1,5 @@
+.consulta__codigo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,9 @@
+.corpo__cadastro__form__item {
+margin-top: 1rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+color: #ecf0f1;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+font-size: 1.8rem;
+}
